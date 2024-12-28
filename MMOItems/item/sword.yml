@@ -1,0 +1,151 @@
+
+AVARICE_SCYTHE_EVO:
+  base:
+    material: STICK
+    custom-model-data: 100501.0
+    name: <gradient:#007F0B:#00C52E:#007F0B>ᴀᴠᴀʀɪᴄᴇ sᴄʏᴛʜᴇ (ᴇᴠᴏʟᴜᴛɪᴏɴ sᴛᴀɢᴇ)
+    displayed-type: '&2sɪɴ ᴏғ ɢʀᴇᴇᴅ'
+    attack-damage: 11.0
+    unbreakable: true
+    ability:
+      ability2:
+        type: DEATH_SPIN
+        mode: RIGHT_CLICK
+        damage: 10.0
+        cooldown: 15.0
+      ability3:
+        type: FORBIDDEN_ART
+        mode: SHIFT_LEFT_CLICK
+        cooldown: 60.0
+      ability4:
+        type: LACERATION
+        mode: SHIFT_RIGHT_CLICK
+        damage: 10.0
+        cooldown: 0
+      ability6:
+        type: SOUL_COLLECTOR
+        mode: TIMER
+        timer: 20.0
+      ability7:
+        type: SOUL_SCYTHE
+        mode: TIMER
+        timer: 5.0
+      ability1:
+        type: SOUL_SLICE_EVO
+        mode: LEFT_CLICK
+    attack-speed: 1.6
+    lore:
+    - Dosa ketamakan yang terkumpul
+    - menjadi satu dan berubah
+    - bentuk menjadi salah satu
+    - senjata kutukan.
+    - §
+    - Senjata yang tidak pernah
+    - merasa puas dan keegoisan
+    - tinggi!. &2SIN OF GREED
+    item-particles:
+      type: DOUBLE_RINGS
+      particle: SCULK_SOUL
+      radius: 1.5
+      y-offset: 0.4
+    required-sorcery: 16.0
+    required-agility: 27.0
+    required-fighting: 50.0
+    disable-enchanting: true
+    disable-death-drop: true
+    disable-droping: true
+    
+SACRED_LANCE:
+  base:
+    material: STICK
+    name: <gradient:#4b9dc4:#89defd:#4b9dc4>sᴀᴄʀᴇᴅ ʟᴀɴᴄᴇ
+    attack-damage: 5.0
+    ability:
+      ability1:
+        type: SACRED_SLICE
+        mode: LEFT_CLICK
+        cooldown: 0.2
+      ability2:
+        type: AERIAL_OF_LANCE
+        mode: RIGHT_CLICK
+        cooldown: 5.0
+      ability3:
+        type: SACRED_SLING
+        mode: SNEAK
+      ability4:
+        type: OLKALILRE_OF_LANCE
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 15.0
+      ability5:
+        type: BARONESS_OF_LANCE
+        mode: SHIFT_LEFT_CLICK
+        cooldown: 30.0
+    unbreakable: true
+    disable-attack-passive: true
+    attack-speed: 1
+    custom-model-data: 2245454
+    displayed-type: '&bᴀɴɢᴇʟ ᴏꜰ ᴅɪʟɪɢᴇɴᴄᴇ'
+    disable-death-drop: true
+    disable-droping: true
+    disable-enchanting: true
+
+SUN_GAUNTLET:
+  base:
+    material: STICK
+    name: <gradient:#f5c652:#ffdd89:#f5c652>sᴜɴ ɢᴀᴜɴᴛʟᴇᴛ
+    attack-damage: 5.0
+    ability:
+      ability1:
+        type: DOUBLE_STRIKE
+        mode: LEFT_CLICK
+        cooldown: 0.2
+      ability2:
+        type: FLAMING_DASH
+        mode: RIGHT_CLICK
+        cooldown: 5.0
+      ability3:
+        type: MULTI_STRIKE
+        mode: SNEAK
+      ability4:
+        type: MICHAEL_FISTS
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 15.0
+      ability5:
+        type: WINDBOUND_FURY
+        mode: SHIFT_LEFT_CLICK
+        cooldown: 30.0
+    unbreakable: true
+    disable-attack-passive: true
+    attack-speed: 1
+    custom-model-data: 453777.0
+    displayed-type: '&eᴀɴɢᴇʟ ᴏꜰ ᴠᴀʟᴏʀ'
+    disable-death-drop: true
+    disable-droping: true
+    disable-enchanting: true
+
+CELESTIAL_SCYTHE_OF_ANTARES:
+  base:
+    material: STICK
+    custom-model-data: 1518.0
+    name: <gradient:#4b9dc4:#89defd:#4b9dc4>ᴄᴇʟᴇsᴛɪᴀʟ sᴄʏᴛʜᴇ ᴏꜰ ᴀɴᴛᴀʀᴇs
+    displayed-type: '&bᴀɴɢᴇʟ ᴏꜰ ʜᴏɴᴏʀ'
+    disable-attack-passive: true
+    disable-droping: true
+    disable-enchanting: true
+    unbreakable: true
+    disable-death-drop: true
+    ability:
+      ability1:
+        type: GRAPH_SLASH
+        mode: LEFT_CLICK
+        cooldown: 0
+      ability2:
+        type: AETHER_STRIKE
+        mode: RIGHT_CLICK
+        damage: 10.0
+        cooldown: 10.0
+      ability4:
+        type: ESOTERIC_DASH
+        mode: SNEAK
+        cooldown: 5.0
+        
